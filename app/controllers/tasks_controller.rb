@@ -20,9 +20,6 @@ class TasksController < ApplicationController
   # GET /tasks/1/edit
   def edit
   end
-  def mistareas
-    fotmat.html{render :Mis_Tareas}
-  end
 
   # POST /tasks
   # POST /tasks.json

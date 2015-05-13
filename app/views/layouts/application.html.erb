@@ -30,10 +30,14 @@
         <li class="divider">
 
         </li>
+         <% if user_signed_in? %>
         <li>
           <%= link_to t('Users'), users_path %>
         </li>
-        
+        <li>
+          <%= link_to t('My Tasks'), users_path %>
+        </li>
+        <%end%>
       </ul>
 
       <ul class="right">

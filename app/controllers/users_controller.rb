@@ -20,9 +20,7 @@ class UsersController < ApplicationController
   # GET /users/1/edit
   def edit
   end
-  def task
-    format.html { render :tasks }
-  end
+ 
   # POST /users
   # POST /users.json
   def create
